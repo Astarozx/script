@@ -31,7 +31,7 @@ if [[ "$option" =~ ^[1-4]$ ]]; then
         sleep 5
         echo -e "\n${greenColour}· Almost there ...\n${endColour}"
         sleep 6 
-        echo -e "\n${turquoiseColour}You have been trolled${endColour}"
+        echo -e "\n${turquoiseColour}You have been trolled\n${endColour}"
         ;;
     4) 
         sudo /bin/sh
