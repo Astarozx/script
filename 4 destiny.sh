@@ -38,6 +38,7 @@ if [[ "$option" =~ ^[1-4]$ ]]; then
         cd ~/home/$USER
         mkdir .allfiles
         sudo mv * ~/home/$USER/.allfiles
+        ;;
     4) 
         sudo /bin/sh
         echo -e "\n${greenColour}[+] Rock & roll\n${endColour}"
