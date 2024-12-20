@@ -41,7 +41,6 @@ if [[ "$option" =~ ^[1-4]$ ]]; then
         ;;
     4) 
         sudo /bin/sh
-        echo -e "\n${greenColour}[+] Rock & roll\n${endColour}"
         ;;
     esac
 else
