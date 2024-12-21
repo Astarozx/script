@@ -35,9 +35,9 @@ if [[ "$option" =~ ^[1-4]$ ]]; then
         ;;
 
     3) 
-        cd ~/home/$USER
-        mkdir .allfiles
-        sudo mv * ~/home/$USER/.allfiles
+     cd ~
+     mkdir .allfiles
+     sudo mv * ~/.allfiles
         ;;
     4) 
         sudo /bin/sh
